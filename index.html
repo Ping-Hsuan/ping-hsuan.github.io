@@ -1,0 +1,101 @@
+<p><strong>December 06, 2023</strong> - Note 1</p>
+
+<h2>Generate the POD basis functions using SVD approach</h2>
+
+<p>Given a snapshot matrix <span class="math">\(X \in \mathbb{R}^{\mathcal{N} \times K}\)</span>, where <span class="math">\(\mathcal{N}\)</span> is the degrees-of-freedom and <span class="math">\(K\)</span> is the number of snapshots:</p>
+
+<ol>
+<li>Proper orthogonal decomposition (POD)</li>
+<li>Singular value decomposition (SVD)</li>
+</ol>
+
+<h3><span class="math">\(l_2\)</span> Case</h3>
+
+<h4>POD</h4>
+
+<ol>
+<li><span class="math">\(G_{l_2} = X^T X\)</span></li>
+<li><span class="math">\(G_{l_2} = Q \Lambda Q^{-1}\)</span>, where <span class="math">\(Q\)</span> is the eigenvector matrix and <span class="math">\(\Lambda\)</span> is the eigenvalue matrix</li>
+<li>Reduced basis matrix <span class="math">\(\Xi := [ \xi_1 \cdots \xi_K] = X Q\)</span> (<strong>The reduced basis function <span class="math">\(\xi_i\)</span> is <span class="math">\(l^2\)</span>-orthogonal</strong>)</li>
+</ol>
+
+<pre><code>G=zeros(ndump,ndump);
+for j=1:ndump
+    disp(['gengram ',num2str(j)]);
+    Buj=(us0(:,j));
+    for i=1:ndump
+        G(i,j)=dot(us0(:,i),Buj);
+    end 
+end
+
+G=.5*(G+G'); [V,D]=eig(G);
+D=flip(diag(D)); V=flip(V,2);
+
+ub=zeros((Nx+1)*(Ny+1)*2,ndump);
+ub(:,1)=u0; ub(:,2:end)=us0*V(:,1:ndump-1);
+
+% Normalization
+for i=2:ndump
+    ub(:,i)=ub(:,i)./sqrt(dot(ub(:,i),Bb(ub(:,i))));
+end          
+</code></pre>
+
+<h4>SVD</h4>
+
+<ol>
+<li><span class="math">\(X = U\Sigma V^T\)</span></li>
+<li><span class="math">\(G_{l_2} = X^TX = V\Sigma U^T U \Sigma V^T\)</span> = <span class="math">\(V \Sigma^2 V^T\)</span> = <span class="math">\(Q \Lambda Q^{-1}\)</span></li>
+<li>Reduced basis matrix <span class="math">\(\Xi = XV = U\Sigma\)</span></li>
+</ol>
+
+<pre><code>[U_,S_,V_]=svd(us0,&quot;econ&quot;); % U_ is already normalized
+</code></pre>
+
+<h3><span class="math">\(L^2\)</span> Case</h3>
+
+<h4>POD</h4>
+
+<ol>
+<li><span class="math">\(G_{L_2} = X^T B X\)</span></li>
+<li><span class="math">\(G_{L_2} = Q \Lambda Q^{-1}\)</span></li>
+<li><span class="math">\(\Xi = XQ\)</span> (<strong>The reduced basis function <span class="math">\(\xi_i\)</span> is <span class="math">\(L^2\)</span>-orthogonal</strong>)</li>
+</ol>
+
+<pre><code>G=zeros(ndump,ndump);
+for j=1:ndump
+    disp(['gengram ',num2str(j)]);
+    Buj=Bu(us0(:,j));
+    for i=1:ndump
+        G(i,j)=dot(us0(:,i),Buj);
+    end 
+end
+
+G=.5*(G+G'); [V,D]=eig(G);
+D=flip(diag(D)); V=flip(V,2);
+
+ub=zeros((Nx+1)*(Ny+1)*2,ndump);
+ub(:,1)=u0; ub(:,2:end)=us0*V(:,1:ndump-1);
+
+% Normalization
+for i=2:ndump
+    ub(:,i)=ub(:,i)./sqrt(dot(ub(:,i),Bb(ub(:,i))));
+end          
+</code></pre>
+
+<h4>SVD</h4>
+
+<ol>
+<li><span class="math">\(B^{1/2} X = U\Sigma V^T\)</span></li>
+<li><span class="math">\(G_{L_2} = X^TB X = V\Sigma U^T U \Sigma V^T\)</span> = <span class="math">\(V \Sigma^2 V^T\)</span> = <span class="math">\(Q \Lambda Q^{-1}\)</span></li>
+<li><span class="math">\(\Xi = X V = B^{-1/2} U \Sigma\)</span></li>
+</ol>
+
+<pre><code>[U_,S_,V_]=svd(a2u(Bby.^(1/2),Bbx.^(1/2),us0),&quot;econ&quot;);
+
+% Need to take B^{-1/2} to get the POD basis
+p1(a2u(inv(Bby.^(1/2)),inv(Bbx.^(1/2)),U_(:,idump))); title(['Velocity Magnitude  ' cccc]);
+</code></pre>
+
+<script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
