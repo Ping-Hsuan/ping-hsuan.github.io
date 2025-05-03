@@ -1,9 +1,21 @@
+---
+---
+
 @import "{{ site.theme }}";
 
-/* This will shrink the logo */
-.site-logo img {
-  width: 80px; /* Reduce the logo size */
-  height: 80px;
-  object-fit: contain; /* Ensures logo keeps its aspect ratio */
-  margin-right: 15px; /* Adds a little space between the logo and the text */
+/* Reduce paragraph spacing */
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Reduce spacing between list items if needed */
+li {
+  margin-bottom: 0.3em;
+}
+
+/* Reduce spacing between sections */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
