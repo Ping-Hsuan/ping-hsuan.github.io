@@ -5,7 +5,7 @@ title: Home
 
 # Hi, I'm Ping-Hsuan
 
-![Ping-Hsuan's Headshot](assets/images/headshot.JPG)
+![Ping-Hsuan's Headshot](images/headshot.JPG)
 
 
 Welcome to my personal website!
