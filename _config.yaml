@@ -11,6 +11,8 @@ header_pages:
 # Enable syntax highlighting
 highlighter: rouge
 
+image: /images/headshot.JPG
+
 # Make sure you have this line to link your custom style.css
 css:
   - "assets/css/style.scss"
