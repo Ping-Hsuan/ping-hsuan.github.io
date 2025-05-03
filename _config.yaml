@@ -1,6 +1,10 @@
 title: Ping-Hsuan's Personal Website
 description: Welcome to my site!
-theme: jekyll-theme-minimal
+theme: minima
 header_pages:
   - index.md
   - about.md
+  - contact.md
+
+# Enable syntax highlighting
+highlighter: rouge
