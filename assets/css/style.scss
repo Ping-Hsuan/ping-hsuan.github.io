@@ -1,1 +1,9 @@
 @import "{{ site.theme }}";
+
+/* This will shrink the logo */
+.site-logo img {
+  width: 80px; /* Reduce the logo size */
+  height: 80px;
+  object-fit: contain; /* Ensures logo keeps its aspect ratio */
+  margin-right: 15px; /* Adds a little space between the logo and the text */
+}
