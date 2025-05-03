@@ -1,7 +1,16 @@
 title: Ping-Hsuan Tsai
-description: CFD | HPC | Reduced-Order Modeling
-url: https://ping-hsuan.github.io/
-
+tagline: CFD, HPC, and Reduced-Order Modeling Researcher
+#description: CFD | HPC | Reduced-Order Modeling
+author:
+  name: Ping-Hsuan Tsai
+  url: https://ping-hsuan.github.io/
+  email: pinghsuan@vt.edu
+social:
+  name: Ping-Hsuan Tsai
+  links:
+    - https://github.com/ping-hsuan
+    - https://www.linkedin.com/in/ping-hsuan-tsai-8a19701b9/
+keywords: HPC, reduced-order modeling, computational fluid dynamics, turbulent flows
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
