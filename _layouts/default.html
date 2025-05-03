@@ -23,6 +23,26 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+        <!-- Add this social links section -->
+        <div class="social-links">
+          <p>
+            <!-- GitHub -->
+            <a href="https://github.com/ping-hsuan" target="_blank" rel="noopener noreferrer">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/github.svg" width="24" height="24" alt="GitHub">
+            </a>
+            &nbsp;
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/ping-hsuan-tsai-8a19701b9/" target="_blank" rel="noopener noreferrer">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/linkedin.svg" width="24" height="24" alt="LinkedIn">
+            </a>
+            &nbsp;
+            <!-- Google Scholar -->
+            <a href="https://scholar.google.com/citations?user=EBQA_xkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/googlescholar.svg" width="24" height="24" alt="Google Scholar">
+            </a>
+          </p>
+        </div>
+
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
