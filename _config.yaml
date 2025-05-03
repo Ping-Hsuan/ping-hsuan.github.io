@@ -1,10 +1,16 @@
 title: Ping-Hsuan Tsai
 
-description: Welcome to my site!
+#description: Welcome to my site!
+description: Computational Fluid Dynamics | HPC | Reduced-Order Modeling
+url: https://ping-hsuan.github.io/
+
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-seo-tag
+- jekyll-sitemap
+
 header_pages:
   - index.md
   - about.md
