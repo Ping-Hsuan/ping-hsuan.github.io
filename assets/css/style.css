@@ -1,5 +1,7 @@
 .headshot {
-  width: 150px; /* Set the width of the image */
-  height: auto; /* Keep the aspect ratio */
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
