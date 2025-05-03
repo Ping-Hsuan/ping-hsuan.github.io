@@ -1,6 +1,6 @@
 title: Ping-Hsuan Tsai
 description: Welcome to my site!
-theme: minima
+theme: minimal-mistakes-jekyll
 header_pages:
   - index.md
   - about.md
