@@ -1,6 +1,9 @@
 title: Ping-Hsuan Tsai
 description: Welcome to my site!
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@latest"
+plugins:
+  - jekyll-remote-theme
 header_pages:
   - index.md
   - about.md
