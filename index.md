@@ -12,6 +12,7 @@ title: Home
   - Data-driven variational multi-scale reduced-oder models (d2-VMS-ROM)
 - Model-order reduction of turbulent flows
 - High-performance computing
+- Numerical Analysis
 
 # Educations
 
