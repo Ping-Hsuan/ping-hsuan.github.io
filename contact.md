@@ -8,5 +8,3 @@ title: Contact
 Feel free to reach out if you’d like to collaborate or have any questions.
 
 [Email Me](mailto:ping.hsuan@vt.edu)
-
-[Back to Home](index.md)

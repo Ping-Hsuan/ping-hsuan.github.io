@@ -3,10 +3,18 @@ layout: default
 title: About
 ---
 
-## About Me
+# About Me
 
-I'm a student and developer building cool stuff with Python and web tech.
+## Educations
 
-You can find me on [GitHub](https://github.com/Ping-Hsuan), or contact me below.
+- **University of Illinois at Urbana-Champaign**
 
-[Back to Home](index.md)
+  PhD, Computer Science, 2023
+    - Advisor: [Paul Fischer](https://fischerp.cs.illinois.edu/)
+      - Dissertation: "Parametric model order reduction development for Navier-Stokes equations from 2D chaotic to 3D turbulent flow problems"
+- **National Taiwan University**
+
+  MSc, Applied Mathematics, 2017
+- **National Yang Ming Chiao Tung University**
+
+  BSc, Applied Mathematics, 2015
