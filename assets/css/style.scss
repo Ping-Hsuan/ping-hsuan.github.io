@@ -95,12 +95,16 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   margin-bottom: 30px;
   width: 100%; /* Ensure full width container */
+  max-width: 1200px; /* Increase the max width of the entire row */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .video-container {
   position: relative;
   width: 48%;
   margin-bottom: 15px;  /* Add margin below */
+  max-width: 600px; /* Allow videos to be larger */
 }
 
 .video-iframe-wrapper {
@@ -135,6 +139,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 5px;
   font-weight: bold;
   position: relative;
+  font-size: 0.9em; /* Decrease font size */
 }
 
 body {
