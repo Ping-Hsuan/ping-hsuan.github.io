@@ -7,6 +7,6 @@ title: Contact
 
 Feel free to reach out if you’d like to collaborate or have any questions.
 
-Email: ping.hsuan@vt.edu
+[Email Me](mailto:ping.hsuan@vt.edu)
 
 [Back to Home](index.md)
