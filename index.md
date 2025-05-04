@@ -5,11 +5,11 @@ title: Home
 
 <div class="video-row">
   <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/HQ2Nmjd_lx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: none;"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HQ2Nmjd_lx4?autoplay=1&mute=1&loop=1&playlist=HQ2Nmjd_lx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: none;"></iframe>
   </div>
   
   <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/HQ2Nmjd_lx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: none;"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HQ2Nmjd_lx4?autoplay=1&mute=1&loop=1&playlist=HQ2Nmjd_lx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: none;"></iframe>
   </div>
 </div>
 
