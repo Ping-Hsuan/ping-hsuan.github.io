@@ -96,14 +96,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
 }
 
-.video-row .video-container {
+.video-container {
+  position: relative;
   width: 48%;
+  padding-bottom: 27%; /* Aspect ratio for videos */
+  height: 0;
+  overflow: hidden;
 }
 
 /* Make videos stack on smaller screens */
 @media screen and (max-width: 768px) {
   .video-row .video-container {
     width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
     margin-bottom: 20px;
   }
 }
