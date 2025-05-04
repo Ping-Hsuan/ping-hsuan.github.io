@@ -19,3 +19,57 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
+
+.site-nav {
+  position: relative;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 15px 0;
+}
+
+.site-nav .page-link {
+  margin-right: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.site-nav .page-link:hover {
+  color: #0366d6;
+}
+
+.site-nav .page-link.active {
+  font-weight: bold;
+}
+
+.nav-trigger {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .menu-icon {
+    display: block;
+    float: right;
+  }
+  
+  .trigger {
+    clear: both;
+    display: none;
+  }
+  
+  .nav-trigger:checked ~ .trigger {
+    display: block;
+    padding-top: 15px;
+  }
+  
+  .site-nav .page-link {
+    display: block;
+    margin: 10px 0;
+  }
+}

@@ -28,5 +28,3 @@ title: Home
 
   BSc, Applied Mathematics, 2015
 
-
-[About Me](about.md) | [Projects](projects.md) | [Contact](contact.md)
