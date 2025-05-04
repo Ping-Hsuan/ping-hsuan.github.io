@@ -25,6 +25,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f8f8f8;
   border-bottom: 1px solid #e8e8e8;
   padding: 15px 0;
+  text-align: center; /* Center the content */
+  width: 100%; /* Take full width available */
 }
 
 .site-nav .page-link {
@@ -32,6 +34,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   color: #333;
   text-decoration: none;
+  width: 80%; /* Reduce width to avoid too much space */
+  max-width: 200px; /* Maximum width for the links */
 }
 
 .site-nav .page-link:hover {
