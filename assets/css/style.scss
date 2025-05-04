@@ -93,15 +93,17 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  width: 100%; /* Ensure full width container */
 }
 
 .video-container {
   position: relative;
   width: 48%;
-  padding-bottom: 27%; /* Aspect ratio for videos */
+  padding-bottom: 42%; /* Aspect ratio for videos */
   height: 0;
   overflow: hidden;
+  margin-bottom: 15px;  /* Add margin below */
 }
 
 .video-container iframe {
