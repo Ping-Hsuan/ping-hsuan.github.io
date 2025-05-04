@@ -18,12 +18,16 @@ My research focuses on the developement of data-driven reduced-order modeling fo
 ## Jet in a cross-flow
 <div class="video-row">
   <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/HQ2Nmjd_lx4?autoplay=1&mute=1&loop=1&playlist=HQ2Nmjd_lx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: none;"></iframe>
+    <div class="video-iframe-wrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/HQ2Nmjd_lx4?autoplay=1&mute=1&loop=1&playlist=HQ2Nmjd_lx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: none;"></iframe>
+    <div>
     <p class="video-title">Vortices produced by the full-order model with 3 million DOFs</p>
   </div>
   
   <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/HQ2Nmjd_lx4?autoplay=1&mute=1&loop=1&playlist=HQ2Nmjd_lx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: none;"></iframe>
+    <div class="video-iframe-wrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/HQ2Nmjd_lx4?autoplay=1&mute=1&loop=1&playlist=HQ2Nmjd_lx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: none;"></iframe>
+    <div>
     <p class="video-title">Vortices produced by the reduced-order model with 300 DOFs</p>
   </div>
 </div>
