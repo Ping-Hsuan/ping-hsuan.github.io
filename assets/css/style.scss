@@ -80,3 +80,23 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid #eee;  /* Optional: adds a separator between items */
   }
 }
+
+/* Video row for side-by-side videos */
+.video-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.video-row .video-container {
+  width: 48%;
+}
+
+/* Make videos stack on smaller screens */
+@media screen and (max-width: 768px) {
+  .video-row .video-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

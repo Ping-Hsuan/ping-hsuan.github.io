@@ -3,6 +3,16 @@ layout: default
 title: Home
 ---
 
+<div class="video-row">
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HQ2Nmjd_lx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HQ2Nmjd_lx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
 # Research Interests
 
 - Large-Eddy Simulations reduced-order modeling (LES-ROMs)
