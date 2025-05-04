@@ -128,8 +128,14 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: 'Lato', sans-serif;
   font-size: 17px; /* or try 17px or 1.1rem */
+  color: #000000;
 }
 
 .text-justify {
   text-align: justify;
+}
+
+p {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
