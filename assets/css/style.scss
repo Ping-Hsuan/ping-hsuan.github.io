@@ -29,9 +29,16 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%; /* Take full width available */
 }
 
+.trigger {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .site-nav .page-link {
-  display: block;  /* Changed from inline to block */
-  margin: 10px 0;
+  display: inline-block;
+  width: calc(50% - 20px); /* Two columns with some spacing */
+  margin: 5px 10px;
   color: #333;
   text-decoration: none;
   width: 80%; /* Reduce width to avoid too much space */
