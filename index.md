@@ -11,22 +11,9 @@ Hello! I am a postdoctoral associate in the Department of Mathematics at Virgini
 My research focuses on the developement of data-driven reduced-order modeling for turbulent flows. In particular, I am working on <u><em>modeling</em></u>--constructing accurate and efficient data-driven ROMs, <u><em>numerical analysis</em></u>--proving fundamental mathematical properties, e.g., stability, consistency, convergence and parameter scalings, and numerical <u><em>simulation</em></u>--testing the new data-driven ROMs in the simulation of turbulent flows in engineering.
 {: .text-justify}
 
+# Upcoming Talks
 
-# Cool Videos
-
-## Jet in a cross-flow
-<div class="video-row">
-  <div class="video-container">
-    <div class="video-iframe-wrapper">
-      <iframe width="800" height="450" src="https://www.youtube.com/embed/HQ2Nmjd_lx4?autoplay=1&mute=1&loop=1&playlist=HQ2Nmjd_lx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: none;"></iframe>
-    </div>
-    <p class="video-title">Vortices produced by the full-order model with 3 million DOFs</p>
-  </div>
-  
-  <div class="video-container">
-    <div class="video-iframe-wrapper">
-      <iframe width="800" height="450" src="https://www.youtube.com/embed/HQ2Nmjd_lx4?autoplay=1&mute=1&loop=1&playlist=HQ2Nmjd_lx4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: none;"></iframe>
-    </div>
-    <p class="video-title">Vortices produced by the reduced-order model with 300 DOFs</p>
-  </div>
-</div>
+1. [Data-Driven Large Eddy Simulation Reduced Order Models(LES-ROMs) for Turbulent Flows](https://icms.site.nthu.edu.tw/p/406-1529-289951,r11189.php?Lang=zh-tw), Institute of Computational and Modeling Science (ICMS), National Tsing Hua University, 6 June 2025
+2. Data-Driven Large Eddy Simulation Reduced Order Models(LES-ROMs) for Turbulent Flows, National Center for Theoretical Sciences (NCTS), 27 June 2025
+3. [Data-Driven Regularized Reduced Order Models for Turbulent Flows](https://www.conftool.org/icosahom2025/index.php?page=showAbstract&form_id=532), The 15th International Congress on Spectral and High Order Methods, 13 - 18 July 2025, Montréal, Canada
+4. Data-Driven Regularized Reduced Order Models for Turbulent Flows, 18th U.S. National Congress on Computational Mechanics, 20 - 24 July 2025, Chicago, Illinois
