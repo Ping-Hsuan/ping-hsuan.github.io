@@ -19,4 +19,6 @@ My research focuses on the developement of data-driven reduced-order modeling fo
 4. Data-Driven Large Edy Simulation Reduced Order Models for Turbulent Flows, 18th U.S. National Congress on Computational Mechanics, 20 - 24 July 2025, Chicago, Illinois
 
 # Upcoming Talks
-1. SIAM UQ 2026
+1. SIAM UQ (March 23, 2026) - I will present joint work with Xiaolong He, Ivan Zanardi, Alejandro N. Diaz, Traian Iliescu, and Youngsoo Choi,
+``Scalable Nonlinear Manifold Reduced-Order Models: Domain Decomposition and Cross-PDE Expressivity,'' in the minisymposium ``Generative Models for Scientific Computing: Trustworthiness, Physical Consistency, Computational Challenges, and Applications.''
+2. ISCL Seminar Series (March 19, 2026) — I will present our recent work, ``StabOp: A Data-Driven Stabilization Operator for Reduced-Order Modeling,'' hosted by Romit Maulik and Hokin Kim.
