@@ -13,12 +13,12 @@ My research focuses on the developement of data-driven reduced-order modeling fo
 
 # Past Talks
 
-1. [Data-Driven Large Eddy Simulation Reduced Order Models(LES-ROMs) for Turbulent Flows](https://icms.site.nthu.edu.tw/p/406-1529-289951,r11189.php?Lang=zh-tw), Institute of Computational and Modeling Science (ICMS), National Tsing Hua University, 6 June 2025
-2. Data-Driven Large Eddy Simulation Reduced Order Models(LES-ROMs) for Turbulent Flows, National Center for Theoretical Sciences (NCTS), 27 June 2025
-3. [Data-Driven Large Eddy Simulation Reduced Order Models for Turbulent Flows](https://www.conftool.org/icosahom2025/index.php?page=showAbstract&form_id=532), The 15th International Congress on Spectral and High Order Methods, 13 - 18 July 2025, Montréal, Canada
-4. Data-Driven Large Edy Simulation Reduced Order Models for Turbulent Flows, 18th U.S. National Congress on Computational Mechanics, 20 - 24 July 2025, Chicago, Illinois
+1. [Data-Driven Large Eddy Simulation Reduced Order Models (LES-ROMs) for Turbulent Flows](https://icms.site.nthu.edu.tw/p/406-1529-289951,r11189.php?Lang=zh-tw), *Institute of Computational and Modeling Science (ICMS), National Tsing Hua University*, 6 June 2025
+2. Data-Driven Large Eddy Simulation Reduced Order Models(LES-ROMs) for Turbulent Flows, *National Center for Theoretical Sciences (NCTS)*, 27 June 2025
+3. [Data-Driven Large Eddy Simulation Reduced Order Models for Turbulent Flows](https://www.conftool.org/icosahom2025/index.php?page=showAbstract&form_id=532), *The 15th International Congress on Spectral and High Order Methods*, 13 - 18 July 2025, Montréal, Canada
+4. Data-Driven Large Edy Simulation Reduced Order Models for Turbulent Flows, *18th U.S. National Congress on Computational Mechanics*, 20 - 24 July 2025, Chicago, Illinois
 
 # Upcoming Talks
-1. Scalable Nonlinear Manifold Reduced-Order Models: Domain Decomposition and Cross-PDE Expressivity, SIAM UQ, 23 March 2026. Joint work with Xiaolong He, Ivan Zanardi, Alejandro N. Diaz, Traian Iliescu, and Youngsoo Choi. Presented in the minisymposium "Generative Models for Scientific Computing: Trustworthiness, Physical Consistency, Computational Challenges, and Applications."
-2. StabOp: A Data-Driven Stabilization Operator for Reduced-Order Modeling, ISCL Seminar Series, 19 March 2026. Hosted by Romit Maulik and Hokin Kim.
+1. [StabOp: A Data-Driven Stabilization Operator for Reduced-Order Modeling], *ISCL Seminar Series*, 19 March 2026. Hosted by Romit Maulik and Hokin Kim.
+2. [Scalable Nonlinear Manifold Reduced-Order Models: Domain Decomposition and Cross-PDE Expressivity], *SIAM UQ*, 23 March 2026. Joint work with Xiaolong He, Ivan Zanardi, Alejandro N. Diaz, Traian Iliescu, and Youngsoo Choi. Presented in the minisymposium "Generative Models for Scientific Computing: Trustworthiness, Physical Consistency, Computational Challenges, and Applications."
 
